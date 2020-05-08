@@ -94,7 +94,7 @@ sh eval_ctw1500.sh
 [old version paper] [https://arxiv.org/abs/1806.02559](https://arxiv.org/abs/1806.02559)
 
 ## Other Implements
-https://github.com/WenmuZhou/PSENet.pytorch[pytorch version (thanks @[WenmuZhou](https://github.com/WenmuZhou))] [https://github.com/WenmuZhou/PSENet.pytorch](https://github.com/WenmuZhou/PSENet.pytorch)
+[pytorch version (thanks @[WenmuZhou](https://github.com/WenmuZhou))] (https://github.com/WenmuZhou/PSENet.pytorch)
 [tensorflow1.x version (thanks @[liuheng92](https://github.com/liuheng92))] [https://github.com/liuheng92/tensorflow_PSENet](https://github.com/liuheng92/tensorflow_PSENet)
 
 ## Citation

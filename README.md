@@ -1,19 +1,12 @@
-# PSENet-tf2
-PSEnet tf2.0 reimplementation for better training and inference
-Hi, we implement PSENet with Tensorflow2.0 for better coding experience(tf1.x s*ks!)
-
-For reference, 
-
-
 # Shape Robust Text Detection with Progressive Scale Expansion Network
 
 ## Requirements
-* Python 3.x
+* Python 2.7
 * PyTorch v0.4.1+
 * pyclipper
 * Polygon2
-* OpenCV 
-* opencv-python
+* OpenCV 3.4 (for c++ version pse)
+* opencv-python 3.4
 
 ## Introduction
 Progressive Scale Expansion Network (PSENet) is a text detector which is able to well detect the arbitrary-shape text in natural scene.

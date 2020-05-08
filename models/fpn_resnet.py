@@ -1,9 +1,10 @@
 import tensorflow as tf
 import sys
+
 sys.path.append('../')
 # this BottleNeck is for mobilenet family
 from models.mobilenet_v3_block import BottleNeck, h_swish
-NUM_CLASSES = 10
+#NUM_CLASSES = 10
 
 
 def conv3x3(out_planes, strides=1):

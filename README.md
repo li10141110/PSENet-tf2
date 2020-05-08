@@ -98,6 +98,10 @@ sh eval_ctw1500.sh
 
 [tensorflow1.x version (thanks @[liuheng92](https://github.com/liuheng92))] [https://github.com/liuheng92/tensorflow_PSENet](https://github.com/liuheng92/tensorflow_PSENet)
 
+## Thanks and collaborator
+laizhihui @ [lzh](https://github.com/lzh37)
+
+
 ## Citation
 ```
 @inproceedings{wang2019shape,

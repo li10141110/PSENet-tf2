@@ -95,6 +95,7 @@ sh eval_ctw1500.sh
 
 ## Other Implements
 [pytorch version (thanks @[WenmuZhou](https://github.com/WenmuZhou))] (https://github.com/WenmuZhou/PSENet.pytorch)
+
 [tensorflow1.x version (thanks @[liuheng92](https://github.com/liuheng92))] [https://github.com/liuheng92/tensorflow_PSENet](https://github.com/liuheng92/tensorflow_PSENet)
 
 ## Citation

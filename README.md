@@ -1,24 +1,33 @@
 # Shape Robust Text Detection with Progressive Scale Expansion Network
 
 ## Requirements
-* Python 2.7
+* Python3
 * PyTorch v0.4.1+
 * pyclipper
 * Polygon2
-* OpenCV 3.4 (for c++ version pse)
-* opencv-python 3.4
+* OpenCV 
 
 ## Introduction
-Progressive Scale Expansion Network (PSENet) is a text detector which is able to well detect the arbitrary-shape text in natural scene.
+(PSENet-tf2.0)Progressive Scale Expansion Network (PSENet) is a text detector which is able to well detect the arbitrary-shape text in natural scene.
 
-## Training
+## Training (polygon)
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train_ic15.py
+CUDA_VISIBLE_DEVICES=0 python train_ic15.py
 ```
 
-## Testing
+## Testing (polygon)
 ```
 CUDA_VISIBLE_DEVICES=0 python test_ic15.py --scale 1 --resume [path of model]
+```
+
+## Training (quadrilateral)
+```
+CUDA_VISIBLE_DEVICES=0 python train_id41k.py
+```
+
+## Testing  (quadrilateral)
+```
+CUDA_VISIBLE_DEVICES=0 python test_id41k.py --scale 1 --resume [path of model]
 ```
 
 ## Eval script for ICDAR 2015 and SCUT-CTW1500
@@ -85,7 +94,10 @@ sh eval_ctw1500.sh
 [old version paper] [https://arxiv.org/abs/1806.02559](https://arxiv.org/abs/1806.02559)
 
 ## Other Implements
-[tensorflow version (thanks @[liuheng92](https://github.com/liuheng92))] [https://github.com/liuheng92/tensorflow_PSENet](https://github.com/liuheng92/tensorflow_PSENet)
+https://github.com/WenmuZhou/PSENet.pytorch
+[pytorch version (thanks @[WenmuZhou](https://github.com/WenmuZhou))] [https://github.com/WenmuZhou/PSENet.pytorch
+](https://github.com/WenmuZhou/PSENet.pytorch)
+[tensorflow1.x version (thanks @[liuheng92](https://github.com/liuheng92))] [https://github.com/liuheng92/tensorflow_PSENet](https://github.com/liuheng92/tensorflow_PSENet)
 
 ## Citation
 ```

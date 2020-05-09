@@ -8,6 +8,7 @@
 
 ## Introduction
 (PSENet-tf2.0)Progressive Scale Expansion Network (PSENet) is a text detector which is able to well detect the arbitrary-shape text in natural scene.
+Besides, based on this text segmentation model, we got top 6 in MTWI 2018 Text Detection Challenge 
 
 ## Training (polygon)
 ```
@@ -77,7 +78,7 @@ sh eval_ctw1500.sh
 ### [ICPR MTWI 2018 Challenge 2](https://tianchi.aliyun.com/competition/rankingList.htm?spm=5176.100067.5678.4.65166a80jnPm5W&raceId=231651)
 | Method | Precision (%) | Recall (%) | F-measure (%) | 
 | - | - | - | - |
-| PSENet-1s (ResNet152) | 78.5 | 72.1 | 75.2 |
+| PSENet-1s (ResNet152) | 8.28 | 70.0 | 76 |
 
 ## Results
 <div align="center">

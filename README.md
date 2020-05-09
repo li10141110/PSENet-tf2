@@ -2,7 +2,6 @@
 
 ## Requirements
 * Python3
-* PyTorch v0.4.1+
 * pyclipper
 * Polygon2
 * OpenCV 

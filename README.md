@@ -5,6 +5,8 @@
 * pyclipper
 * Polygon2
 * OpenCV 
+* TensorFlow 2.0+
+
 
 ## Introduction
 (PSENet-tf2.0)Progressive Scale Expansion Network (PSENet) is a text detector which is able to well detect the arbitrary-shape text in natural scene.
